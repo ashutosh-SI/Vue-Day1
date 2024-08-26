@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>From app</h1>
+  <CounterComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CounterComponent from './components/Counter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CounterComponent // Updated to match the new component name
   }
 }
 </script>
